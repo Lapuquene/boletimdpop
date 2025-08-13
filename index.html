@@ -3,24 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jornal Virtual</title>
+    <title>Boletim Informativo Virtual</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1 class="title">📰 Boletim Informativo</h1>
+    <h1 class="title">📰 Boletim Informativo</h1>
 
-<div id="flipbook">
-    <!-- As páginas serão geradas pelo JavaScript a partir do PDF -->
-</div>
+    <!-- O flipbook será preenchido pelo JavaScript -->
+    <div id="flipbook">
+        <!-- Páginas serão inseridas aqui -->
+    </div>
 
-<div class="controls">
-    <button id="prevBtn">⬅ Anterior</button>
-    <button id="nextBtn">Próximo ➡</button>
-</div>
+    <div class="controls">
+        <button id="prevBtn">⬅ Anterior</button>
+        <button id="nextBtn">Próximo ➡</button>
+    </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
-<script src="turn.min.js"></script>
-<script src="script.js"></script>
+    <!-- DEPENDÊNCIAS -->
+    <!-- 1. jQuery (Necessário para o turn.js) -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- 2. PDF.js (Para ler o arquivo PDF ) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+    <!-- 3. Turn.js (Para o efeito de virar a página ) -->
+    <script src="turn.min.js"></script>
+    <!-- 4. Nosso script principal -->
+    <script src="script.js"></script>
+
 </body>
 </html>
