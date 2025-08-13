@@ -1,5 +1,5 @@
 // Defina o caminho para o seu arquivo PDF
-const pdfUrl = 'boletim.pdf'; // << IMPORTANTE: Renomeie seu arquivo PDF para 'boletim.pdf'
+const pdfUrl = 'Boletim.pdf'; // << IMPORTANTE: Renomeie seu arquivo PDF para 'boletim.pdf'
 
 // Defina o workerSrc para o pdf.js
 pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.worker.min.js`;
@@ -68,3 +68,4 @@ nextBtn.on('click', () => {
 
 // Inicia o processo
 initializeFlipbook();
+
